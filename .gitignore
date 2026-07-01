@@ -1,0 +1,25 @@
+# Python sanal ortam klasörleri
+venv/
+env/
+.venv/
+
+# Python derleme dosyaları ve cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django veritabanı ve medya dosyaları
+db.sqlite3
+media/
+*.log
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+
+# IDE ayarları (VS Code, PyCharm vb.)
+.vscode/
+.idea/
+
+# Çevresel değişken dosyaları
+.env
