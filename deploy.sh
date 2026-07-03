@@ -2,7 +2,7 @@
 
 git pull origin main 
 source venv/bin/activate
-python3 manage.py runserver
 pip install -r requirements.txt
-pyhton manage.py migrate
-pyhton manage.py collectstatic
+python manage.py migrate
+python manage.py collectstatic --noinput
+sudo systemctl restart  gunicorn
